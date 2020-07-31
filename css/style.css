@@ -1,0 +1,118 @@
+/* Base css start */
+* {
+    margin: 0;
+    outline: 0;
+    padding: 0;
+}
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+    outline: 0 solid;
+}
+
+ul,
+li {
+    list-style-type: none;
+    margin: 0;
+}
+
+img {
+    border: 0;
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 500;
+
+}
+
+p,
+il {
+    font-size: 16px;
+}
+a{
+    font-size: 12px;
+}
+
+body {
+   
+    font-size: 16px;
+    color: #7b7a6d;
+    background-image: url(../images/body-background.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+
+
+/* nav Css */
+
+nav {
+    background: linear-gradient(160deg, #1f2224, #272a2c);
+    border-radius: 0 0 20px 20px;
+    padding: 20px 0;
+}
+
+.main-menu ul li {
+    display: inline-block;
+}
+
+.main-menu li a {
+    display: block;
+    font-size: 17px;
+    padding: 12px;
+    color: #e6e3bb;
+    transition: all linear .2s;
+}
+.main-menu li a:hover{
+    color: #8e4423;
+}
+
+.logo a {
+    display: block;
+    padding: 12px 21px;
+}
+
+.logo {position: relative;}
+
+.logo::after {content: '';top: 0;right: -10px;width: 1px;height: 100%;background: #a2a295;position: absolute;}
+
+
+
+/* singing form */
+
+.site-signing-area input[type=text],.site-signing-area input[type=password] {
+    width: 30%;
+    margin: 0 1%;
+    background: linear-gradient(180deg, #1b1d1f, #242628);
+    box-shadow: 0 2px 0px #3f4245;
+}
+
+.site-signing-area input {
+    padding: 6px 15px;
+    font-size: 14px;
+    border: none;
+    border-radius: 7px;
+    color: #8e4323;
+}
+
+.site-signing-area {
+    padding: 6px 1px;
+}
+
+.site-signing-area input[type=submit] {
+    background: linear-gradient(10deg, #6f2b0e, #9c4c27);
+    color: #e6e3bb;
+    box-shadow: 0 -2px 0 #3f4245;
+}
+
+.site-signing-area input::placeholder {
+    color: #7b7a6d;
+}
